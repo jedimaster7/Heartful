@@ -573,7 +573,7 @@ footer p {
   }
   /* Main page */
   main {
-    height: 140vh;
+    height: 150vh;
     padding-top: 0;
   }
   /* About page */
@@ -623,6 +623,7 @@ footer p {
   #logo img {
     width: 88%;
     padding-top: 3%;
+    padding-left: none;
   }
   /* Welcome message on main page */
   .welcome {
