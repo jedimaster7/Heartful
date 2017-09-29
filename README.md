@@ -6,7 +6,7 @@ If you want to create lessons or help fix or maintain the website, then please d
 
 If you have a brilliant idea for the project, then let's work on it and make something cool!
 
-You can visit the website at jedimaster7.github.io/Heartful
+You can visit the website at https://jedimaster7.github.io/Heartful
 
 ## Todo
 
