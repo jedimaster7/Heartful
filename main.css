@@ -600,6 +600,38 @@ footer p {
     overflow: hidden;
     height: 1%;
   }
+
+  /* Lessons */
+
+  .lessons {
+      height: 280vh;
+      background-color: antiquewhite;
+      padding-top: none;
+      overflow: hidden;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+  }
+
+  .lesson {
+      width: 80vw;
+      height: 18vh;
+      background-color: white;
+      border-radius: 15px;
+      box-shadow: 15px 10px rgba(0,0,0,0.05);
+      flex: 1;
+      margin: 10vh;
+      margin-left: 35px;
+      margin-bottom: 0;
+  }
+
+  #unity {
+    border-bottom: 10vh;
+  }
+
+  body {
+    max-width: 100vw;
+  }
 }
 
 /* Tablets */
