@@ -6,6 +6,8 @@ If you want to create lessons or help fix or maintain the website, then please d
 
 If you have a brilliant idea for the project, then let's work on it and make something cool!
 
+You can visit the website at jedimaster7.github.io/Heartful
+
 ## Todo
 
 1. Fix up the code, it is terrible. Do stuff like rename things and reorganize.
