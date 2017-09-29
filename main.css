@@ -10,31 +10,31 @@
 */
 
 @mixin flexbox {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 body {
-    margin: 0;
-    font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
 }
 
 header {
-    height: 10vh;
-    background-color: antiquewhite;
-    overflow: hidden;
-    display: inline-block;
+  height: 10vh;
+  background-color: antiquewhite;
+  overflow: hidden;
+  display: inline-block;
 }
 
 header li {
-    display: inline;
+  display: inline;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /*
@@ -43,47 +43,47 @@ a {
 */
 
 #social-header {
-    background-color: none;
-    width: 20%;
-    height: inherit;
-    margin: 0 20% 0 0;
-    text-align: ;
-    display: inline-block;
-    float: left;
+  background-color: none;
+  width: 20%;
+  height: inherit;
+  margin: 0 20% 0 0;
+  text-align: ;
+  display: inline-block;
+  float: left;
 }
 
 #social-header ul {
-    list-style-type: none;
-    text-align: center;
-    padding-top: 2vh;
+  list-style-type: none;
+  text-align: center;
+  padding-top: 2vh;
 }
 
 #social-header li {
-    text-align: center;
-    margin-right: 2vw;
+  text-align: center;
+  margin-right: 2vw;
 }
 
 #social-header a {
-    text-decoration: none;
-    color: black;
-    display: inline;
-    transition: 0.5s color;
+  text-decoration: none;
+  color: black;
+  display: inline;
+  transition: 0.5s color;
 }
 
 #social-header .facebook a:hover {
-    color: rgba(235,108,107,1);
+  color: rgba(235, 108, 107, 1);
 }
 
 #social-header .twitter a:hover {
-    color: rgba(0,164,227,1);
+  color: rgba(0, 164, 227, 1);
 }
 
 #social-header .instagram a:hover {
-    color: rgba(189,154,255,1);
+  color: rgba(189, 154, 255, 1);
 }
 
 #social-header .tumblr a:hover {
-    color: rgba(0,218,64,1);
+  color: rgba(0, 218, 64, 1);
 }
 
 #social-footer {
@@ -96,17 +96,17 @@ a {
 */
 
 #logo {
-    background-color: none;
-    width: 20%;
-    height: inherit;
-    display: inline-block;
-    padding-top: 1vh;
+  background-color: none;
+  width: 20%;
+  height: inherit;
+  display: inline-block;
+  padding-top: 1vh;
 }
 
 #logo img {
-    width: 75%;
-    padding-left: 12.5%;
-    padding-top: 3%;
+  width: 75%;
+  padding-left: 12.5%;
+  padding-top: 3%;
 }
 
 /*
@@ -114,27 +114,27 @@ a {
 */
 
 #navigation {
-    width: 20%;
-    height: inherit;
-    background-color: none;
-    display: inline-block;
-    float: right;
-    text-align: center;
-    font-size: 1.2em;
+  width: 20%;
+  height: inherit;
+  background-color: none;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  font-size: 1.2em;
 }
 
 #navigation p {
-	padding-top: 1.5vh;
+  padding-top: 1.5vh;
 }
 
 #navigation a {
-    text-decoration: none;
-    color: black;
-    transition: color 0.5s;
+  text-decoration: none;
+  color: black;
+  transition: color 0.5s;
 }
 
 #navigation a:hover {
-	color: rgba(235,108,107,1);
+  color: rgba(235, 108, 107, 1);
 }
 
 /*
@@ -142,40 +142,40 @@ a {
 */
 
 main {
-    height: 90vh;
-    background-color: white;
-    padding-top: 10vh;
+  height: 90vh;
+  background-color: white;
+  padding-top: 10vh;
 }
 
 .welcome {
-    width: 60%;
-    height: 70vh;
-    background-color: white;
-    margin-left: 20%;
-    padding-top: 4vh;
-    color: rgba(235,108,107,1);
+  width: 60%;
+  height: 70vh;
+  background-color: white;
+  margin-left: 20%;
+  padding-top: 4vh;
+  color: rgba(235, 108, 107, 1);
 }
 
 .welcome h2 {
-    text-align: center;
-    font-size: 2em;
+  text-align: center;
+  font-size: 2em;
 }
 
 .welcome ol {
-    display: block;
-    margin-left: 27%;
-    font-size: 1.4em;
-    width: 60%;
-    line-height: 2;
+  display: block;
+  margin-left: 27%;
+  font-size: 1.4em;
+  width: 60%;
+  line-height: 2;
 }
 
 .welcome ol li {
-    padding-top: 3vh;
+  padding-top: 3vh;
 }
 
 .welcome a {
-    text-decoration: none;
-    color: rgba(235,108,107,1);
+  text-decoration: none;
+  color: rgba(235, 108, 107, 1);
 }
 
 /*
@@ -185,149 +185,149 @@ main {
 /* Code dealing with lessons page or lesson boxes */
 
 .lessons {
-    height: 100vh;
-    background-color: antiquewhite;
-    padding-top: 4vh;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  height: 100vh;
+  background-color: antiquewhite;
+  padding-top: 4vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .lessons h3 {
-    margin-top: 0;
-    text-align: center;
-    padding-top: 2vh;
-    margin-bottom: 1vh;
+  margin-top: 0;
+  text-align: center;
+  padding-top: 2vh;
+  margin-bottom: 1vh;
 }
 
 .lessons h5 {
-    text-align: center;
+  text-align: center;
 }
 
 .lesson {
-    width: 25vw;
-    height: 18vh;
-    background-color: white;
-    margin-bottom: 20px;
-    border-radius: 15px;
-    box-shadow: 15px 10px rgba(0,0,0,0.05);
-    flex: 1;
-    margin: 35px;
+  width: 25vw;
+  height: 18vh;
+  background-color: white;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  box-shadow: 15px 10px rgba(0, 0, 0, 0.05);
+  flex: 1;
+  margin: 35px;
 }
 
 .lesson a {
-    color: black;
-    transition: 0.5s color;
+  color: black;
+  transition: 0.5s color;
 }
 
 /* box shared attributes */
 
 .border {
-    margin: 0 auto;
-    border-bottom: 2px solid black;
-    width: 40%;
-    transition: 0.5s border;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  width: 40%;
+  transition: 0.5s border;
 }
 
 /* color */
 
 #color:hover {
-	color: rgba(235,108,107,1);
+  color: rgba(235, 108, 107, 1);
 }
 
 #color:hover .border {
-    border-bottom-color: rgba(235,108,107,1);
+  border-bottom-color: rgba(235, 108, 107, 1);
 }
 
 /* balance */
 
 #balance:hover {
-    color: rgba(255,230,112,1);
+  color: rgba(255, 230, 112, 1);
 }
 
 #balance:hover .border {
-    border-bottom-color: rgba(255,230,112,1);
+  border-bottom-color: rgba(255, 230, 112, 1);
 }
 
 /* emphasis */
 
 #emphasis:hover {
-    color: rgba(0,164,227,1);
+  color: rgba(0, 164, 227, 1);
 }
 
 #emphasis:hover .border {
-    border-bottom-color: rgba(0,164,227,1);
+  border-bottom-color: rgba(0, 164, 227, 1);
 }
 
 /* movement */
 
 #movement:hover {
-    color: rgba(189,154,255,1);
+  color: rgba(189, 154, 255, 1);
 }
 
 #movement:hover .border {
-    border-bottom-color: rgba(189,154,255,1);
+  border-bottom-color: rgba(189, 154, 255, 1);
 }
 
 /* pattern */
 
 #pattern:hover {
-    color: rgba(0,218,64,1);
+  color: rgba(0, 218, 64, 1);
 }
 
 #pattern:hover .border {
-    border-bottom-color: rgba(0,218,64,1);
+  border-bottom-color: rgba(0, 218, 64, 1);
 }
 
 /* repitition */
 
 #repitition:hover {
-    color: rgba(235,108,107,1);
+  color: rgba(235, 108, 107, 1);
 }
 
 #repitition:hover .border {
-    border-bottom-color: rgba(235,108,107,1);
+  border-bottom-color: rgba(235, 108, 107, 1);
 }
 
 /* proportion */
 
 #proportion:hover {
-    color: rgba(255,230,112,1);
+  color: rgba(255, 230, 112, 1);
 }
 
 #proportion:hover .border {
-    border-bottom-color: rgba(255,230,112,1);
+  border-bottom-color: rgba(255, 230, 112, 1);
 }
 
 /* rhythm */
 
 #rhythm:hover {
-    color: rgba(0,164,227,1);
+  color: rgba(0, 164, 227, 1);
 }
 
 #rhythm:hover .border {
-    border-bottom-color: rgba(0,164,227,1);
+  border-bottom-color: rgba(0, 164, 227, 1);
 }
 
 /* variety */
 
 #variety:hover {
-    color: rgba(189,154,255,1);
+  color: rgba(189, 154, 255, 1);
 }
 
 #variety:hover .border {
-    border-bottom-color: rgba(189,154,255,1);
+  border-bottom-color: rgba(189, 154, 255, 1);
 }
 
 /* unity */
 
 #unity:hover {
-    color: rgba(0,218,64,1);
+  color: rgba(0, 218, 64, 1);
 }
 
 #unity:hover .border {
-    border-bottom-color: rgba(0,218,64,1);
+  border-bottom-color: rgba(0, 218, 64, 1);
 }
 
 /*
@@ -335,53 +335,53 @@ main {
 */
 
 #about_logo {
-	max-width: 20%;
-    margin-left: 40%;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+  max-width: 20%;
+  margin-left: 40%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
 }
 
 #shapes_2 {
-	position: absolute;
-    margin: 3vh 80%;
-    width: 275px;
-    height: 200px;
-    z-index: 10;
+  position: absolute;
+  margin: 3vh 80%;
+  width: 275px;
+  height: 200px;
+  z-index: 10;
 }
 
 #shapes_1 {
-    position: absolute;
-    width: 200px;
-    height: 200px;
-    z-index: 10;
-    margin: 3vh 5%;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+  margin: 3vh 5%;
 }
 
 .about {
-    height: 100vh;
-    background-color: white;
-    padding-top: 2vh;
-    color: rgba(0,0,0,.8);
+  height: 100vh;
+  background-color: white;
+  padding-top: 2vh;
+  color: rgba(0, 0, 0, .8);
 }
 
 .about h4 {
-    text-align: justify;
-    line-height: 2.5;
-    font-size: 1.2em;
+  text-align: justify;
+  line-height: 2.5;
+  font-size: 1.2em;
 }
 
 .about a {
-    color: rgba(0,0,0,.8);
-    transition: 0.5s color;
+  color: rgba(0, 0, 0, .8);
+  transition: 0.5s color;
 }
 
 .about a:hover {
-    color: rgba(235,108,107,1);
+  color: rgba(235, 108, 107, 1);
 }
 
 #text_box {
-	width: 50%;
-    margin-left: 25%;
+  width: 50%;
+  margin-left: 25%;
 }
 
 /*
@@ -389,28 +389,28 @@ main {
 */
 
 footer {
-    height: 20vh;
-    background-color: antiquewhite;
-    text-align: center;
-    padding-top: 7vh;
+  height: 20vh;
+  background-color: antiquewhite;
+  text-align: center;
+  padding-top: 7vh;
 }
 
 footer p {
-    margin-top: 0;
-    font-size: 1em;
+  margin-top: 0;
+  font-size: 1em;
 }
 
 #top {
-    font-size: 1.1em;
-    margin-bottom: 4vh;
+  font-size: 1.1em;
+  margin-bottom: 4vh;
 }
 
 #heart {
-    transition: color 0.25s;
+  transition: color 0.25s;
 }
 
 #heart:hover {
-    color: rgba(235,108,107,1);
+  color: rgba(235, 108, 107, 1);
 }
 
 /*
@@ -418,104 +418,104 @@ footer p {
 */
 
 #lesson_header {
-	background-color: antiquewhite;
+  background-color: antiquewhite;
 }
 
 .content {
-    width: 60%;
-    margin-bottom: 3vh;
-    margin-top: 3vh;
-    margin-left: 20%;
-    line-height: 2;
+  width: 60%;
+  margin-bottom: 3vh;
+  margin-top: 3vh;
+  margin-left: 20%;
+  line-height: 2;
 }
 
 #color_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #balance_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #emphasis_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #movement_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #pattern_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #proportion_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #repetition_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #rhythm_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #unity_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #variety_logo {
-	width: 25%;
-    margin-left: 37.5%;
-    margin-top: 4vh;
+  width: 25%;
+  margin-left: 37.5%;
+  margin-top: 4vh;
 }
 
 #home_logo {
-    background-color: none;
-    width: 20%;
-    height: inherit;
-    display: inline-block;
-    padding-top: 1vh;
+  background-color: none;
+  width: 20%;
+  height: inherit;
+  display: inline-block;
+  padding-top: 1vh;
 }
 
 #home_logo img {
-    width: 15%;
-    margin: 5% 0% 5% 20%;
+  width: 15%;
+  margin: 5% 0% 5% 20%;
 }
 
 #lessons_nav {
-    width: 20%;
-    height: inherit;
-    background-color: none;
-    display: inline-block;
-    float: right;
-    text-align: center;
-    font-size: 1em;
-    margin-top: 4vh;
+  width: 20%;
+  height: inherit;
+  background-color: none;
+  display: inline-block;
+  float: right;
+  text-align: center;
+  font-size: 1em;
+  margin-top: 4vh;
 }
 
 #next {
-    float: right;
-    margin: -10% 20% 20% 0;
+  float: right;
+  margin: -10% 20% 20% 0;
 }
 
 /*
@@ -525,112 +525,157 @@ footer p {
 /* Mobile phones */
 
 @media screen and (max-width: 480px) {
-
   /* Social buttons moved to footer */
-
   footer {
     display: inline-block;
     overflow: hidden;
   }
-
   footer li {
     display: inline;
   }
-
   #social-header {
     display: none;
   }
-
   #social-footer {
-      background-color: none;
-      width: 50%;
-      height: inherit;
-      margin-left: -5%;
-      text-align: ;
-      display: inline-block;
+    background-color: none;
+    width: 50%;
+    height: inherit;
+    margin-left: -5%;
+    text-align: ;
+    display: inline-block;
   }
-
   #social-footer ul {
-      list-style-type: none;
-      text-align: center;
-      padding-top: 2vh;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 2vh;
   }
-
   #social-footer li {
-      text-align: center;
-      margin-right: 2vw;
+    text-align: center;
+    margin-right: 2vw;
   }
-
   #social-footer a {
-      text-decoration: none;
-      color: black;
-      display: inline;
-      transition: 0.5s color;
+    text-decoration: none;
+    color: black;
+    display: inline;
+    transition: 0.5s color;
   }
-
   #social-footer .facebook a:hover {
-      color: rgba(235,108,107,1);
+    color: rgba(235, 108, 107, 1);
   }
-
   #social-footer .twitter a:hover {
-      color: rgba(0,164,227,1);
+    color: rgba(0, 164, 227, 1);
   }
-
   #social-header .instagram a:hover {
-      color: rgba(189,154,255,1);
+    color: rgba(189, 154, 255, 1);
   }
-
   #social-header .tumblr a:hover {
-      color: rgba(0,218,64,1);
+    color: rgba(0, 218, 64, 1);
   }
-
   /* Main page */
-
   main {
     height: 140vh;
+    padding-top: 0;
   }
-
   /* About page */
-
   #navigation p {
     display: none;
   }
-
   .about {
     overflow: hidden;
     height: 1%;
   }
-
   /* Lessons */
-
   .lessons {
-      height: 280vh;
-      background-color: antiquewhite;
-      padding-top: none;
-      overflow: hidden;
-      display: flex;
-      justify-content: flex-start;
-      flex-wrap: wrap;
+    height: 280vh;
+    background-color: antiquewhite;
+    padding-top: none;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
   }
-
   .lesson {
-      width: 80vw;
-      height: 18vh;
-      background-color: white;
-      border-radius: 15px;
-      box-shadow: 15px 10px rgba(0,0,0,0.05);
-      flex: 1;
-      margin: 10vh;
-      margin-left: 35px;
-      margin-bottom: 0;
+    width: 80vw;
+    height: 18vh;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 15px 10px rgba(0, 0, 0, 0.05);
+    flex: 1;
+    margin: 8vh;
+    margin-left: 35px;
+    margin-bottom: 0;
   }
-
   #unity {
-    border-bottom: 10vh;
+    margin-bottom: 10vh;
   }
-
+  /* Body */
   body {
     max-width: 100vw;
+  }
+  /* Heartful logo */
+  #logo {
+    width: 50%;
+    height: inherit;
+    display: inline-block;
+    padding-top: 1vh;
+    margin-left: 25%;
+  }
+  #logo img {
+    width: 88%;
+    padding-top: 3%;
+  }
+  /* Welcome message on main page */
+  .welcome {
+    width: 60%;
+    height: 70vh;
+    background-color: white;
+    margin-left: 20%;
+    padding-top: 4vh;
+    color: rgba(235, 108, 107, 1);
+  }
+  .welcome h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+  .welcome ol {
+    display: block;
+    margin-left: 10%;
+    font-size: 1.4em;
+    width: 60%;
+    line-height: 2;
+  }
+  .welcome ol li {
+    padding-top: 3vh;
+  }
+  .welcome a {
+    text-decoration: none;
+    color: rgba(235, 108, 107, 1);
+  }
+  /* About page */
+  #about_logo {
+    max-width: 40%;
+    height: 5vh;
+    margin-left: 30%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+  }
+  #shapes_2 {
+    position: absolute;
+    margin: 3vh 80%;
+    width: 275px;
+    height: 200px;
+    z-index: 10;
+  }
+  #shapes_1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    z-index: 10;
+    margin: 3vh -35%;
+  }
+  #text_box p {
+    margin: 0;
+    padding: 0;
   }
 }
 
