@@ -37,12 +37,12 @@ a {
     text-decoration: none;
 }
 
-/* 
-    Everything dealing with the social buttons on the 
+/*
+    Everything dealing with the social buttons on the
     left of the header
 */
 
-#social {
+#social-header {
     background-color: none;
     width: 20%;
     height: inherit;
@@ -52,42 +52,46 @@ a {
     float: left;
 }
 
-#social ul {
+#social-header ul {
     list-style-type: none;
     text-align: center;
     padding-top: 2vh;
 }
 
-#social li {
+#social-header li {
     text-align: center;
     margin-right: 2vw;
 }
 
-#social a {
+#social-header a {
     text-decoration: none;
     color: black;
     display: inline;
     transition: 0.5s color;
 }
 
-#social .facebook a:hover {
+#social-header .facebook a:hover {
     color: rgba(235,108,107,1);
 }
 
-#social .twitter a:hover {
+#social-header .twitter a:hover {
     color: rgba(0,164,227,1);
 }
 
-#social .instagram a:hover {
+#social-header .instagram a:hover {
     color: rgba(189,154,255,1);
 }
 
-#social .tumblr a:hover {
+#social-header .tumblr a:hover {
     color: rgba(0,218,64,1);
 }
 
+#social-footer {
+  display: none;
+}
+
 /*
-    Everything dealing with the logo in the center of 
+    Everything dealing with the logo in the center of
     the header
 */
 
@@ -513,3 +517,91 @@ footer p {
     float: right;
     margin: -10% 20% 20% 0;
 }
+
+/*
+  Responsive pages
+*/
+
+/* Mobile phones */
+
+@media screen and (max-width: 480px) {
+
+  /* Social buttons moved to footer */
+
+  footer {
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  footer li {
+    display: inline;
+  }
+
+  #social-header {
+    display: none;
+  }
+
+  #social-footer {
+      background-color: none;
+      width: 50%;
+      height: inherit;
+      margin-left: -5%;
+      text-align: ;
+      display: inline-block;
+  }
+
+  #social-footer ul {
+      list-style-type: none;
+      text-align: center;
+      padding-top: 2vh;
+  }
+
+  #social-footer li {
+      text-align: center;
+      margin-right: 2vw;
+  }
+
+  #social-footer a {
+      text-decoration: none;
+      color: black;
+      display: inline;
+      transition: 0.5s color;
+  }
+
+  #social-footer .facebook a:hover {
+      color: rgba(235,108,107,1);
+  }
+
+  #social-footer .twitter a:hover {
+      color: rgba(0,164,227,1);
+  }
+
+  #social-header .instagram a:hover {
+      color: rgba(189,154,255,1);
+  }
+
+  #social-header .tumblr a:hover {
+      color: rgba(0,218,64,1);
+  }
+
+  /* Main page */
+
+  main {
+    height: 140vh;
+  }
+
+  /* About page */
+
+  #navigation p {
+    display: none;
+  }
+
+  .about {
+    overflow: hidden;
+    height: 1%;
+  }
+}
+
+/* Tablets */
+
+/* Large screens */
