@@ -700,6 +700,17 @@ footer p {
     margin-left: 5vw;
   }
 
+  #balance_logo {
+    width: 50vw;
+    margin: auto;
+    margin-top: 4vh;
+  }
+
+  #balance_logo img {
+    width: 40vw;
+    margin-left: 5vw;
+  }
+
   figure img {
     width: 70%;
   }
