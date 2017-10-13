@@ -529,6 +529,7 @@ footer p {
   footer {
     display: inline-block;
     overflow: hidden;
+    padding-bottom: 6vh;
   }
   footer li {
     display: inline;
@@ -573,7 +574,7 @@ footer p {
   }
   /* Main page */
   main {
-    height: 150vh;
+    height: 140vh;
     padding-top: 0;
   }
   /* About page */
@@ -678,6 +679,29 @@ footer p {
   #text_box p {
     margin: 0;
     padding: 0;
+  }
+
+  #home_logo {
+    width: 60vw;
+  }
+
+  #navigation {
+    width: 40vw;
+  }
+
+  #color_logo {
+    width: 50vw;
+    margin: auto;
+    margin-top: 4vh;
+  }
+
+  #color_logo img {
+    width: 40vw;
+    margin-left: 5vw;
+  }
+
+  figure img {
+    width: 70%;
   }
 }
 
