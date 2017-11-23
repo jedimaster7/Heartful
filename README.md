@@ -8,6 +8,16 @@ If you have a brilliant idea for the project, then let's work on it and make som
 
 You can visit the website at https://jedimaster7.github.io/Heartful
 
+## New Lessons!
+
+Starting today we are looking to add 2 more courses to Heartful: 2D graphics and 3D graphics! These are in the works and
+
+anyone who wishes to contribute to these or add other courses may do so from our Github page.
+
+## 2D Design
+
+## 3D Design
+
 ## Todo
 
 1. Fix up the code, it is terrible. Do stuff like rename things and reorganize.
