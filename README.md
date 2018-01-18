@@ -28,15 +28,17 @@ Let's build something great together. :D
 
 1. Fix up the code, it is terrible. Do stuff like rename things and reorganize.
 
-2. Switch to SASS
+2. Add a Favicon for the site.
 
-3. Optimize and make cross-browser compatible
+3. Switch to SASS
 
-4. Make responsive and mobile-optimized
+4. Optimize and make cross-browser compatible
 
-5. Make more accessible and SEO friendly
+5. Make responsive and mobile-optimized
 
-6. Use PHP or something to create templates
+6. Make more accessible and SEO friendly
+
+7. Use PHP or something to create templates
 
 ## Roadmap
 
